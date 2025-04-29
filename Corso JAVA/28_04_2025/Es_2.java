@@ -11,7 +11,7 @@ public class Es_2 {
         boolean myNumCD = numC > 100 || numD > 100;
         System.out.println("è uno dei due dati " + numC + " e " + numD + ", maggiore di 100? " + myNumCD);
     
-        boolean notTen = !(numA > 10);
-        System.out.println("Il numero " + numA + " non è maggiore di 10? " + notTen);
+        boolean isTen = !(numA > 10);
+        System.out.println("Il numero " + numA + " non è maggiore di 10? " + isTen);
     }
 }
